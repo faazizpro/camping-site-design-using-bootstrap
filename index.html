@@ -22,141 +22,201 @@
 
     <header>
       <!-- Navbar Section Ends -->
-      <section class="container">
-        <nav class="navbar navbar-expand-lg bg-light fw-bold  rounded-bottom fs-6 mb-5">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="" />
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Tent</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Hiking</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sleeping Bag</a>
-                  </li>
-    
-                </ul>
-              </div>
+      <section class="container mb-5">
+        <nav
+          class="navbar navbar-expand-lg bg-light fw-bold fixed-top rounded-bottom fs-6 mb-lg-5"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#slider"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tent</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#camping">Camping</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sleeping">Sleeping Bag</a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
       </section>
       <!-- Navbar Section Ends -->
 
       <!-- Image Slider Section Starts -->
-      <section class="container mb-5">
-        <h1 class="text-center mb-4">Featured Products</h1>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <section class="container mb-5 mt-5" id="slider">
+        <h1 class="text-center mt-5 mb-4">Featured Products</h1>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active bg-light p-5 rounded-5">
               <div class="row">
                 <div class="col-lg-6 d-flex align-items-center">
                   <div>
                     <h1>Best Camping Tent</h1>
-                    <p class="mt-3 pe-5 me-5 fs-5">Some people like having a tent for each type of activity, others want one tent that can do it all. The Half Dome is a solid tent that feels comfortable.</p>
+                    <p class="mt-3 pe-5 me-5 fs-5">
+                      Some people like having a tent for each type of activity,
+                      others want one tent that can do it all. The Half Dome is
+                      a solid tent that feels comfortable.
+                    </p>
                     <h1>$450</h1>
                     <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
-                  <img src="images/banner/banner1.jpg" class="rounded-3" alt="">
+                  <img
+                    src="images/banner/banner1.jpg"
+                    class="rounded-3"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-lg-6 d-flex ">
+                <div class="col-lg-6 d-flex">
                   <div>
                     <h1 class="mt-5">Best Camping Bag</h1>
-                  <p class="mt-3 pe-5 me-5 fs-5">A solid lightweight backpack shouldn’t break the bank. That said, your pack can last for many years and thousands of miles, so it’s not a bad idea to invest in one that’s high-quality.</p>
-                  <h1>$250</h1>
-                  <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
+                    <p class="mt-3 pe-5 me-5 fs-5">
+                      A solid lightweight backpack shouldn’t break the bank.
+                      That said, your pack can last for many years and thousands
+                      of miles, so it’s not a bad idea to invest in one that’s
+                      high-quality.
+                    </p>
+                    <h1>$250</h1>
+                    <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
-                  <img src="images/banner/bannar2.jpg" class="h-75 rounded-3" alt="">
+                  <img
+                    src="images/banner/bannar2.jpg"
+                    class="h-75 rounded-3"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-lg-6 d-flex ">
+                <div class="col-lg-6 d-flex">
                   <div>
                     <h1 class="mt-5">Best Camping Van</h1>
-                  <p class="mt-3 pe-5 me-5 fs-5">If you’re looking for the freedom and sense of adventure that a motorhome provides but don’t need that much space or the big price tag, then you should consider a camper van.</p>
-                  <h1>$1890</h1>
-                  <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
+                    <p class="mt-3 pe-5 me-5 fs-5">
+                      If you’re looking for the freedom and sense of adventure
+                      that a motorhome provides but don’t need that much space
+                      or the big price tag, then you should consider a camper
+                      van.
+                    </p>
+                    <h1>$1890</h1>
+                    <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
-                  <img src="images/banner/banner3.jpg" class="rounded-3" alt="">
+                  <img
+                    src="images/banner/banner3.jpg"
+                    class="rounded-3"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-lg-6 d-flex ">
+                <div class="col-lg-6 d-flex">
                   <div>
                     <h1 class="mt-5">Best Camping Kayak</h1>
-                  <p class="mt-3 pe-5 me-5 fs-5">A good kayak for camping will include enough storage for you to bring all your camping necessities with you. It should also be comfortable enough for you to spend several days out on the water</p>
-                  <h1>$650</h1>
-                  <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
+                    <p class="mt-3 pe-5 me-5 fs-5">
+                      A good kayak for camping will include enough storage for
+                      you to bring all your camping necessities with you. It
+                      should also be comfortable enough for you to spend several
+                      days out on the water
+                    </p>
+                    <h1>$650</h1>
+                    <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
-                  <img src="images/banner/banner4.jpg" class="rounded-3" alt="">
+                  <img
+                    src="images/banner/banner4.jpg"
+                    class="rounded-3"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-lg-6 d-flex ">
+                <div class="col-lg-6 d-flex">
                   <div>
                     <h1 class="mt-5">Best Camping Tarp</h1>
-                  <p class="mt-3 pe-5 me-5 fs-5">Tarp camping is a minimalist method of shelter construction in which a camper uses a tarpaulin, or tarp to shield their body and equipment from the wind, rain, and other elements</p>
-                  <h1>$300</h1>
-                  <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
+                    <p class="mt-3 pe-5 me-5 fs-5">
+                      Tarp camping is a minimalist method of shelter
+                      construction in which a camper uses a tarpaulin, or tarp
+                      to shield their body and equipment from the wind, rain,
+                      and other elements
+                    </p>
+                    <h1>$300</h1>
+                    <div class="mt-3 btn btn-warning btn-lg">Buy Now</div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
-                  <img src="images/banner/banner5.jpg" class="rounded-3" alt="">
+                  <img
+                    src="images/banner/banner5.jpg"
+                    class="rounded-3"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
-
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -169,23 +229,29 @@
         <h1 class="text-center mb-4">Explore Now!</h1>
         <div class="row g-5">
           <div class="col-lg-4">
-            <div class="bg-light d-flex justify-content-around align-items-center p-3 rounded-5">
+            <div
+              class="bg-light d-flex justify-content-around align-items-center p-3 rounded-5"
+            >
               <h1 class="fw-bold fs-4">Tent</h1>
-              <img src="images/section3/sec3.jpg" class="rounded-3" alt="">
+              <img src="images/section3/sec3.jpg" class="rounded-3" alt="" />
             </div>
           </div>
 
-          <div class="col-lg-4 ">
-            <div class="bg-light d-flex justify-content-around align-items-center p-3 rounded-5">
+          <div class="col-lg-4">
+            <div
+              class="bg-light d-flex justify-content-around align-items-center p-3 rounded-5"
+            >
               <h1 class="fw-bold fs-4">Sleeping Bag</h1>
-              <img src="images/section3/sec2.jpg" class="rounded-3" alt="">
+              <img src="images/section3/sec2.jpg" class="rounded-3" alt="" />
             </div>
           </div>
 
           <div class="col-lg-4 mb-5">
-            <div class="bg-light d-flex justify-content-around align-items-center p-3 rounded-5">
+            <div
+              class="bg-light d-flex justify-content-around align-items-center p-3 rounded-5"
+            >
               <h1 class="fw-bold fs-4">Hiking Accessories</h1>
-              <img src="images/section3/sec1.jpg" class="rounded-3" alt="">
+              <img src="images/section3/sec1.jpg" class="rounded-3" alt="" />
             </div>
           </div>
         </div>
@@ -193,100 +259,161 @@
       <!-- Explore Now Ends -->
 
       <!-- Top 3 Camping Tents Start-->
-      <section class="container mb-5">
+      <section class="container mb-5" id="camping">
         <h1 class="text-center mb-5">Top 3 Camping Tents For Wild Camping</h1>
-        
+
         <div class="row g-0">
-          <div class="col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="images/tent/tent3.jpg" class="card-img-top" alt="...">
+          <div class="col-12 col-md-4 row-cols-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="images/tent/tent3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h3 class="card-title">Wenzel Dome 5-Person Tent</h3>
-                <p class="card-text fs-5">Camping on a budget? The Wenzel is inexpensive and will help you gauge if you enjoy the activity.</p>
-                <div class="text-center mb-3"><a href="#" class="btn btn-warning fw-bold">Check The Latest Price</a></div>
+                <p class="card-text fs-5">
+                  Camping on a budget? The Wenzel is inexpensive and will help
+                  you gauge if you enjoy the activity.
+                </p>
+                <div class="text-center mb-3">
+                  <a href="#" class="btn btn-warning fw-bold"
+                    >Check The Latest Price</a
+                  >
+                </div>
               </div>
+            </div>
           </div>
-        </div>
 
           <div class="col-lg-4 h-100">
-            <div class="card" style="width: 18rem;">
-              <img src="images/tent/tent3.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 18rem">
+              <img src="images/tent/tent3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h3 class="card-title">ALPS 5 Person Outfitter Tent</h3>
-                <p class="card-text fs-5">Camping on a budget? The Wenzel is inexpensive and will help you gauge if you enjoy the activity.</p>
-                <div class="text-center mb-3"><a href="#" class="btn btn-warning fw-bold">Check The Latest Price</a></div>
+                <p class="card-text fs-5">
+                  Camping on a budget? The Wenzel is inexpensive and will help
+                  you gauge if you enjoy the activity.
+                </p>
+                <div class="text-center mb-3">
+                  <a href="#" class="btn btn-warning fw-bold"
+                    >Check The Latest Price</a
+                  >
+                </div>
               </div>
+            </div>
           </div>
-        </div>
 
           <div class="col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="images/tent/tent1.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 18rem">
+              <img src="images/tent/tent1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h3 class="card-title">Browning Big Horn 5-Person Tent</h3>
-                <p class="card-text fs-5">If your friends could be basketball players, this tent has 7 feet of headroom for them.
+                <p class="card-text fs-5">
+                  If your friends could be basketball players, this tent has 7
+                  feet of headroom for them.
                 </p>
-                <div class="text-center mb-3"><a href="#" class="btn btn-warning fw-bold">Check The Latest Price</a></div>
+                <div class="text-center mb-3">
+                  <a href="#" class="btn btn-warning fw-bold"
+                    >Check The Latest Price</a
+                  >
+                </div>
               </div>
+            </div>
           </div>
-        </div>
-
         </div>
       </section>
       <!-- Top 3 Camping Tents Ends -->
 
       <!-- Top 3 Sleeping Bag Start-->
-      <section class="container mb-5">
+      <section class="container mb-5" id="sleeping">
         <h1 class="text-center mb-5">Top 3 Sleeping For Wild Camping</h1>
-        
+
         <div class="row g-0">
           <div class="col-lg-4">
-            <div class="card h-100" style="width: 18rem;">
-              <img src="images/sleeping-bag/sleeping4.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card h-100" style="width: 18rem">
+              <img
+                src="images/sleeping-bag/sleeping4.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
                 <h3 class="card-title">Kelty Galactic 30</h3>
-                <p class="card-text fs-5">The Kelty Galactic 30 is one of only a few rectangle-shaped down sleeping bags on the market designed for frontcountry users</p>
-                <div class="text-center mb-3"><a href="#" class="btn btn-warning fw-bold">Check The Latest Price</a></div>
+                <p class="card-text fs-5">
+                  The Kelty Galactic 30 is one of only a few rectangle-shaped
+                  down sleeping bags on the market designed for frontcountry
+                  users
+                </p>
+                <div class="text-center mb-3">
+                  <a href="#" class="btn btn-warning fw-bold"
+                    >Check The Latest Price</a
+                  >
+                </div>
               </div>
+            </div>
           </div>
-        </div>
-
-          <div class="col-lg-4 ">
-            <div class="card h-100" style="width: 18rem;">
-              <img src="images/sleeping-bag/sleeping4.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">Nemo Disco 30</h3>
-                <p class="card-text fs-5">This bag is made with luxurious 650-fill-power down that has a great warmth-to-weight ratio and is highly compressible so it takes up very little space when packed.</p>
-                <div class="text-center mb-3"><a href="#" class="btn btn-warning fw-bold">Check The Latest Price</a></div>
-              </div>
-          </div>
-        </div>
 
           <div class="col-lg-4">
-            <div class="card h-100" style="width: 18rem;">
-              <img src="images/sleeping-bag/sleeping5.jpg" class="card-img-top" alt="...">
+            <div class="card h-100" style="width: 18rem">
+              <img
+                src="images/sleeping-bag/sleeping4.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Nemo Disco 30</h3>
+                <p class="card-text fs-5">
+                  This bag is made with luxurious 650-fill-power down that has a
+                  great warmth-to-weight ratio and is highly compressible so it
+                  takes up very little space when packed.
+                </p>
+                <div class="text-center mb-3">
+                  <a href="#" class="btn btn-warning fw-bold"
+                    >Check The Latest Price</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card h-100" style="width: 18rem">
+              <img
+                src="images/sleeping-bag/sleeping5.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h3 class="card-title">Coleman Brazos</h3>
-                <p class="card-text fs-5">The Brazos has a roomy rectangular shape and a soft, comfortable interior. We recommend being diligent to keep this bag inside of a tent because debris can really cling to the lining if it comes in contact with the dirt
+                <p class="card-text fs-5">
+                  The Brazos has a roomy rectangular shape and a soft,
+                  comfortable interior. We recommend being diligent to keep this
+                  bag inside of a tent because debris can really cling to the
+                  lining if it comes in contact with the dirt
                 </p>
-                <div class="text-center mb-3"><a href="#" class="btn btn-warning fw-bold">Check The Latest Price</a></div>
+                <div class="text-center mb-3">
+                  <a href="#" class="btn btn-warning fw-bold"
+                    >Check The Latest Price</a
+                  >
+                </div>
               </div>
+            </div>
           </div>
-        </div>
-
         </div>
       </section>
       <!-- Top 3 Sleeping Bag Ends -->
     </header>
 
     <footer>
-      <section class="text-bg-info d-flex justify-content-center align-items-center container mb-5 rounded-3" style="height: 200px;">
+      <section
+        class="text-bg-info d-flex justify-content-center align-items-center container mb-5 rounded-3"
+        style="height: 200px"
+      >
         <div>
           <h1 class="">Subscribe E-Mail For More Updates</h1>
           <div class="row g-3 align-items-center">
-
             <div class="col-auto">
-              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+              <input
+                type="password"
+                id="inputPassword6"
+                class="form-control"
+                aria-describedby="passwordHelpInline"
+              />
             </div>
             <div>
               <button type="submit" class="btn btn-primary mb-5">Submit</button>
